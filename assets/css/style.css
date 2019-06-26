@@ -1,0 +1,15 @@
+.size{
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+}
+.back{
+    background-color: firebrick;
+}
+.background{
+    background-color: slategray;
+}
+.center{
+    align-content: center;
+}
