@@ -58,15 +58,12 @@ function getGif() {
       });
     });
   };
-    
-
+  
   $("#add").on("click", function (event) {
     event.preventDefault();
-    // This line grabs the input from the textbox
-    var sport = $("#added-sport").val().trim();
-
-    // Adding movie from the textbox to our array
+    var sport = $("#sport").val().trim();
     Choices.push(sport);
+    $("#sport").val("");
     getGif();
   });
 
