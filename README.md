@@ -1,4 +1,4 @@
 <h1>Giftastic</h1>
-In this assignment, we will use an api call in order to post gifs to the website
+Giftastic uses the giphy api to return a selection of gifs based on various buttons with in the app. Giftatistic also allows users to add their own buttons to explore gifs based off a topic of their choosing.
 <br>
 https://wrsmall.github.io/giftastic/
